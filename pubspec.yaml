@@ -1,0 +1,27 @@
+name: flutter_face_ui
+description: Proyecto Flutter para reconocimiento facial con interfaz personalizada.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Paquetes para lógica y procesamiento de imágenes
+  http: ^0.13.6
+  image_picker: ^1.0.4
+  image: ^4.1.3
+  path_provider: ^2.1.2
+  path: ^1.9.0
+
+  # Diseño responsivo y adaptado a Material 3
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
